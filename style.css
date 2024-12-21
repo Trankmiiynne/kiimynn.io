@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Màu hồng nhạt làm nền */
+    color: #333;
+}
+
+header {
+    background-color: #f078c2; /* Màu hồng đậm cho tiêu đề */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff1493; /* Đường viền màu hồng đậm */
+}
+
+.intro {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #383637; /* Màu hồng đậm cho phần giới thiệu */
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc0cb; /* Hộp màu hồng nhạt */
+    border-radius: 10px; /* Bo góc hộp */
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #ff69b4; /* Viền màu hồng */
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffe4e1; /* Nền hồng nhạt */
+}
+
+.gallery h2 {
+    color: #ff1493; /* Màu chữ hồng đậm */
+}
+
+.gallery .images img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ff69b4; /* Viền ảnh màu hồng */
+    border-radius: 10px; /* Bo góc ảnh */
+}
+
+.media {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffc0cb; /* Nền hồng nhạt */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.media h2 {
+    color: #ff1493; /* Màu chữ hồng đậm */
+}
+
+audio {
+    margin-top: 10px;
+    border: 2px solid #ff69b4; /* Viền player audio */
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Màu nền hồng nhạt */
+    color: #000;
+    padding: 20px;
+}
+
+h2 {
+    color: #880e4f; /* Màu tiêu đề */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #f48fb1; /* Màu đường viền hồng nhạt */
+}
+
+th {
+    background-color: #f8bbd0; /* Màu nền tiêu đề hồng */
+    color: #880e4f; /* Màu chữ tiêu đề đậm */
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9; /* Màu nền của các dòng chẵn */
+}
+
+tr:hover {
+    background-color: #fce4ec; /* Màu nền khi hover */
+}
